@@ -1,8 +1,12 @@
 # BER Simulator
 
 Frame-wise bit-error-rate (BER) simulator for digital communication systems.
-Supports 2-ASK (BPSK) and 4-ASK (with Gray or Natural mapping), AWGN / Rayleigh channels, and Uncoded / Conv(K=7, R=1/2) coder.
-Multithreaded C++ with statistically sound early-stopping using Wilson confidence intervals.
+Supports 2-ASK (BPSK) and 4-ASK (Gray or Natural mapping), AWGN/Rayleigh channels, and Uncoded or Conv(K=7, R=1/2) coders.
+Implemented in multithreaded C++ with Wilson confidence-interval early stopping for accurate, efficient runs.
+
+<p align="center">
+  <img src="images/ber_bep_comparison.png" alt="BER vs. theoretical BEP for ASK over AWGN" width="700">
+</p>
 
 ## Build & Run
 
