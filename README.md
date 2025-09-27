@@ -84,7 +84,3 @@ For each SNR point, simulation stops when **any** of:
 Across SNRs, the sweep ends early when the current point is already <= `ber_floor`.
 
 ---
-
-## License
-
-This project is released under the [MIT License](LICENSE).
