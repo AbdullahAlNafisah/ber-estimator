@@ -6,3 +6,6 @@ __pycache__
 
 # CMake
 build/
+
+# itpp
+itpp-4.3.1/
