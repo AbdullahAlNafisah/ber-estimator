@@ -1,6 +1,6 @@
-# BER Simulator
+# BER Estimator
 
-Frame-wise bit-error-rate (BER) simulator for digital communication systems.
+Frame-wise bit-error-rate (BER) estimator for digital communication systems.
 Supports 2-ASK (BPSK) and 4-ASK (Gray or Natural mapping), AWGN/Rayleigh channels, and Uncoded or Conv(K=7, R=1/2) coders.
 Implemented in multithreaded C++ with Wilson confidence-interval early stopping for accurate, efficient runs.
 
@@ -75,7 +75,7 @@ The file name is **`<coder>_<modem>_<channel>.csv`** (e.g., `uncoded_ask4_gray_a
 
 ## Stopping Criteria
 
-For each SNR point, simulation stops when **any** of:
+For each SNR point, estimation stops when **any** of:
 
 - `num_bits ≥ max_bits`
 - CI half-width meets targets (absolute and/or relative) after `ci_min_bits`
