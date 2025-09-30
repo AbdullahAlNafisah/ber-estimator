@@ -4,7 +4,7 @@ This project demonstrates an implementation of a digital communication channel u
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - **Hardware**
 
@@ -18,7 +18,21 @@ This project demonstrates an implementation of a digital communication channel u
 
 ---
 
-## 📄 License
+## Build
+
+```
+g++ main.cpp -O2 -std=c++17 -o bpsk_test -liio -litpp -lm
+```
+
+## Run
+
+```
+./bpsk_test usb:1.5.5
+```
+
+---
+
+## License
 
 This project is licensed under the **GNU General Public License v3.0 (GPLv3)**.
 You are free to use, modify, and distribute this software under the terms of the GPL.
