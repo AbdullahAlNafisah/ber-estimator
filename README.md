@@ -4,20 +4,6 @@ This project demonstrates an implementation of a digital communication channel u
 
 ---
 
-## Requirements
-
-- **Hardware**
-
-  - [PlutoSDR](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html)
-  - Antennas for TX/RX
-
-- **Software / Libraries**
-
-  - [ITPP](http://itpp.sourceforge.net/) (signal processing & comms)
-  - [libiio](https://github.com/analogdevicesinc/libiio) (PlutoSDR interface)
-
----
-
 ## Build
 
 ```
