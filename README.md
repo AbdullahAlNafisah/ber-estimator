@@ -21,13 +21,14 @@ This project demonstrates an implementation of a digital communication channel u
 ## Build
 
 ```
-g++ main.cpp -O2 -std=c++17 -o bpsk_test -liio -litpp -lm
+cd src
+g++ main.cpp -O2 -std=c++17 -o test -liio -litpp -lm
 ```
 
 ## Run
 
 ```
-./bpsk_test usb:1.5.5
+./test usb:1.5.5
 ```
 
 ---

@@ -1,17 +1,3 @@
-// pluto_txrx_csv.cpp
-// Minimal demo: transmit random binary (BPSK on Q by default), receive I/Q,
-// and save raw samples to CSV for offline processing.
-//
-// Build:
-//   g++ -O2 -std=c++17 pluto_txrx_csv.cpp -liio -o pluto_txrx_csv
-//
-// Notes:
-// - Devices (PlutoSDR):
-//     * PHY control dev: "ad9361-phy"
-//     * RX stream dev:   "cf-ad9361-lpc"
-//     * TX stream dev:   "cf-ad9361-dds-core-lpc"
-//     * Channels: "voltage0" (I), "voltage1" (Q)
-
 #include <iio.h>
 #include <cstdint>
 #include <cstdlib>
